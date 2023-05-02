@@ -89,6 +89,7 @@ function checkGuess () {
         return;
     }
 
+    // This will change to only allow 5-letter Pokemon names to be tried
     // if(!POKEMON.includes(guessString)) {
     //     toastr.error("Pokemon not in list!");
     //     return;
